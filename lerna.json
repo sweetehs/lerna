@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "example",
+        "demo",
+        "__tests",
+        ".cache",
+        "dist",
+        "node_modules",
+        "tsconfig.*"
+      ],
+      "verifyAccess": false
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
+  "npmClient": "npm",
+  "version": "independent"
+}

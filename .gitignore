@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+log/
+saas-template
+package-lock.json*
+
+# Editor directories and files
+.npmrc
+.idea
+.vscode
+.cache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

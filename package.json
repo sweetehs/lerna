@@ -1,0 +1,10 @@
+{
+  "name": "efficiency",
+  "scripts": {
+    "test": "parcel ./packages/*/demo/index.html"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.2",
+    "parcel": "^1.12.3"
+  }
+}
