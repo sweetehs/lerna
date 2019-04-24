@@ -3,13 +3,7 @@
   "version": "1.0.4",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
+  "scripts": {},
   "author": "",
-  "license": "ISC",
-  "gitHead": "1df00c5c42014e9353cfcd8ddba03bf3887ee2f2"
+  "license": "ISC"
 }
